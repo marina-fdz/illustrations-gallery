@@ -1,0 +1,101 @@
+.carousel{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-height: 82%;
+    border: 1px solid var(--color-main);
+    // background: repeating-linear-gradient(
+    //     to right,
+    //     var(--color-main),
+    //     var(--color-main) 1px,
+    //     transparent 1px,
+    //     transparent 40px
+    //     );
+    background: 
+    repeating-linear-gradient(
+    to right, transparent, 
+    transparent 50px, 
+    var(--color-main) 50px, 
+    var(--color-main) 51px
+  ),
+    repeating-linear-gradient(
+    to bottom, transparent,  
+    transparent 50px, 
+    var(--color-main) 50px, 
+    var(--color-main) 51px
+  );
+    
+   
+    &__img{
+        width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        &:first-of-type{
+            width: initial;
+            object-fit: contain;
+            max-width: 100%;
+            border-left: 1px solid var(--color-main);
+            border-right: 1px solid var(--color-main);
+            
+        }
+        
+    }
+   
+
+    &__icon-left{
+        position: absolute;
+        top: 45%;
+        left: 0px;
+        padding: 0 12px;
+        background-color: var(--color-background);
+        transform: translateX(-50%);
+        border-radius: 100px;
+        color: var(--color-main);
+        font-size: 3rem;
+        z-index: 100;
+        &:hover{
+            cursor: pointer;
+            color: var(--color-main);
+            background-color: var(--color-background);
+            border-radius: 50%;
+            border: 1px solid var(--color-main);
+        }
+        
+    }
+    &__icon-right{
+        position: absolute;
+        color: var(--color-main);
+        font-size: 3rem;
+        top: 45%;
+        right: 0px;
+        padding: 0 12px;
+        transform: translateX(50%);
+        background-color: var(--color-background);
+        border-radius: 100px;
+        z-index: 100;
+        &:hover{
+            cursor: pointer;
+            color: var(--color-main);
+            background-color: var(--color-background);
+            border-radius: 50%;
+            border: 1px solid var(--color-main);
+        }
+    }
+
+    &__dots{
+        z-index: 200;
+        font-size: 5rem;
+        position: absolute;
+        color: var(--color-main);
+        bottom: 0px;
+        transform: translateY(50%);
+        &:hover{
+            cursor: pointer;
+        }
+        .indicator-inactive{
+            color: grey;
+        }
+    }
+}

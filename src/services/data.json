@@ -1,0 +1,54 @@
+[{
+    "idProduct":1,
+    "name": "Product 1",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae non placeat iusto hic quasi nemo numquam aut, magnam voluptate incidunt voluptatum voluptatibus reprehenderit obcaecati tempore possimus, blanditiis suscipit iste!",
+    "img": "product1.jpg",
+    "photos": ["product1.jpg"],
+    "type": "T-shirt",
+    "stock": false
+},
+{
+    "idProduct":2,
+    "name": "Product 2",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae non placeat iusto hic quasi nemo numquam aut, magnam voluptate incidunt voluptatum voluptatibus reprehenderit obcaecati tempore possimus, blanditiis suscipit iste!",
+    "img": "https://picsum.photos/400/500",
+    "photos": ["https://picsum.photos/800/700", "https://picsum.photos/800/700", "https://picsum.photos/800/700"],
+    "type": "Print",
+    "stock": true
+},
+{
+    "idProduct":3,
+    "name": "Product 3",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae non placeat iusto hic quasi nemo numquam aut, magnam voluptate incidunt voluptatum voluptatibus reprehenderit obcaecati tempore possimus, blanditiis suscipit iste!",
+    "img": "https://picsum.photos/400/500",
+    "photos": ["https://picsum.photos/800/700", "https://picsum.photos/800/700", "https://picsum.photos/800/700"],
+    "type": "Print",
+    "stock": false
+},
+{
+    "idProduct":4,
+    "name": "Product 4",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae non placeat iusto hic quasi nemo numquam aut, magnam voluptate incidunt voluptatum voluptatibus reprehenderit obcaecati tempore possimus, blanditiis suscipit iste!",
+    "img": "https://picsum.photos/400/500",
+    "photos": ["https://picsum.photos/800/700", "https://picsum.photos/800/700", "https://picsum.photos/800/700"],
+    "type": "Print",
+    "stock": false
+},
+{
+    "idProduct":5,
+    "name": "Product 5",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae non placeat iusto hic quasi nemo numquam aut, magnam voluptate incidunt voluptatum voluptatibus reprehenderit obcaecati tempore possimus, blanditiis suscipit iste!",
+    "img": "https://picsum.photos/400/500",
+    "photos": ["https://picsum.photos/800/700", "https://picsum.photos/800/700", "https://picsum.photos/800/700"],
+    "type": "Print",
+    "stock": false
+},
+{
+    "idProduct":6,
+    "name": "Product 6",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae non placeat iusto hic quasi nemo numquam aut, magnam voluptate incidunt voluptatum voluptatibus reprehenderit obcaecati tempore possimus, blanditiis suscipit iste!",
+    "img": "https://picsum.photos/400/500",
+    "photos": ["https://picsum.photos/800/700", "https://picsum.photos/800/700", "https://picsum.photos/800/700"],
+    "type": "Print",
+    "stock": false
+}]

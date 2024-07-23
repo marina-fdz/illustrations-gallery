@@ -1,0 +1,18 @@
+
+.menu{
+    font-size: 1.6rem;
+    width: 100%;
+    
+    &__ul{
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+        
+        a {
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    
+}
