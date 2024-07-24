@@ -1,54 +1,36 @@
 [{
     "idProduct":1,
-    "name": "Shabby & Chic",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae non placeat iusto hic quasi nemo numquam aut, magnam voluptate incidunt voluptatum voluptatibus reprehenderit obcaecati tempore possimus, blanditiis suscipit iste!",
-    "img": "800_shabbyandchic.png",
-    "photos": ["800_shabbyandchic.png"],
-    "type": "T-shirt",
+    "name": "JUN Album",
+    "desc": "Album and singles cover illustrations for JUN.",
+    "img": "jun1.jpg",
+    "photos": ["jun2.jpg", "jun3.jpg", "jun4.jpg", "jun5.jpg", "jun6.jpg"],
+    "type": "Album cover",
     "stock": false
 },
 {
     "idProduct":2,
-    "name": "Bola de Cristal",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae non placeat iusto hic quasi nemo numquam aut, magnam voluptate incidunt voluptatum voluptatibus reprehenderit obcaecati tempore possimus, blanditiis suscipit iste!",
-    "img": "800_atrilevents1.png",
-    "photos": ["https://picsum.photos/800/700", "https://picsum.photos/800/700", "https://picsum.photos/800/700"],
+    "name": "Atril Events / Shabby & Chic",
+    "desc": "Illustrations for Atril Events and Shabby & Chic.",
+    "img": "atril1.jpg",
+    "photos": ["atril2.png", "atril3.png", "shabby1.png", "shabby2.png"],
     "type": "Print",
-    "stock": true
+    "stock": false
 },
 {
     "idProduct":3,
-    "name": "Product 3",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae non placeat iusto hic quasi nemo numquam aut, magnam voluptate incidunt voluptatum voluptatibus reprehenderit obcaecati tempore possimus, blanditiis suscipit iste!",
-    "img": "https://picsum.photos/400/500",
-    "photos": ["https://picsum.photos/800/700", "https://picsum.photos/800/700", "https://picsum.photos/800/700"],
-    "type": "Print",
+    "name": "Carrusel",
+    "desc": "Cover illustration for Carrusel book by Berta Dávila. Editorial Barret",
+    "img": "carrusel2.jpg",
+    "photos": ["carrusel2.jpg","carrusel3.png", "carrusel1.jpg"],
+    "type": "Editorial",
     "stock": false
 },
 {
     "idProduct":4,
-    "name": "Product 4",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae non placeat iusto hic quasi nemo numquam aut, magnam voluptate incidunt voluptatum voluptatibus reprehenderit obcaecati tempore possimus, blanditiis suscipit iste!",
-    "img": "https://picsum.photos/400/500",
-    "photos": ["https://picsum.photos/800/700", "https://picsum.photos/800/700", "https://picsum.photos/800/700"],
-    "type": "Print",
-    "stock": false
-},
-{
-    "idProduct":5,
-    "name": "Product 5",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae non placeat iusto hic quasi nemo numquam aut, magnam voluptate incidunt voluptatum voluptatibus reprehenderit obcaecati tempore possimus, blanditiis suscipit iste!",
-    "img": "https://picsum.photos/400/500",
-    "photos": ["https://picsum.photos/800/700", "https://picsum.photos/800/700", "https://picsum.photos/800/700"],
-    "type": "Print",
-    "stock": false
-},
-{
-    "idProduct":6,
-    "name": "Product 6",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae non placeat iusto hic quasi nemo numquam aut, magnam voluptate incidunt voluptatum voluptatibus reprehenderit obcaecati tempore possimus, blanditiis suscipit iste!",
-    "img": "https://picsum.photos/400/500",
-    "photos": ["https://picsum.photos/800/700", "https://picsum.photos/800/700", "https://picsum.photos/800/700"],
+    "name": "Kiblind Magazine",
+    "desc": "Illustration for Kiblind Magazine, Night Issue",
+    "img": "kiblind1.jpg",
+    "photos": ["kiblind1.jpg", "kiblind2.jpg"],
     "type": "Print",
     "stock": false
 }]
