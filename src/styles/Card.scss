@@ -5,13 +5,8 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    &:hover{
-        background-color: var(--color-main);
-        transition: background-color 1.5s;
-        overflow: hidden;
-    }
     
-    
+
     &__img{
         width: 100%;
         object-fit: cover;
@@ -34,6 +29,10 @@
         
         &:hover{
             cursor: pointer;
+            background-color: var(--color-main);
+            transition: background-color 1.5s;
+            overflow: hidden;
+            
             
             .card__title{
                 padding-bottom: 50%;

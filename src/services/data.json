@@ -6,7 +6,8 @@
     "img": "jun1.jpg",
     "photos": ["jun2.jpg", "jun3.jpg", "jun4.jpg", "jun5.jpg", "jun6.jpg"],
     "type": "Album cover",
-    "stock": false
+    "stock": true,
+    "shopUrl": "https://junallcaps.bandcamp.com/merch"
 },
 {
     "idProduct":2,
@@ -15,7 +16,8 @@
     "img": "atril1.jpg",
     "photos": ["atril2.png", "atril3.png", "shabby1.png", "shabby2.png"],
     "type": "Print",
-    "stock": false
+    "stock": false,
+    "shopUrl": ""
 },
 
 {
@@ -25,7 +27,8 @@
     "img": "baladita3000_1.gif",
     "photos": ["baladita3000_2.png"],
     "type": "Single cover",
-    "stock": false
+    "stock": false,
+    "shopUrl": ""
 },
 {
     "idProduct":6,
@@ -34,7 +37,18 @@
     "img": "paperwallet_1.jpg",
     "photos": ["paperwallet_1.jpg"],
     "type": "Merch",
-    "stock": false
+    "stock": true,
+    "shopUrl": "https://paperwallet.com/products/vulcano?_pos=1&_psq=vulcano&_ss=e&_v=1.0"
+},
+{
+    "idProduct":9,
+    "name": "Paperwallet",
+    "desc": "Design for slim Paperwallet",
+    "img": "paperwallet_1.jpg",
+    "photos": ["paperwallet_1.jpg"],
+    "type": "Merch",
+    "stock": true,
+    "shopUrl": "https://paperwallet.com/products/vulcano-rfid-slim-wallet?_pos=2&_psq=vulcano&_ss=e&_v=1.0"
 },
 {
     "idProduct":3,
@@ -43,7 +57,8 @@
     "img": "carrusel2.jpg",
     "photos": ["carrusel2.jpg","carrusel3.png", "carrusel1.jpg"],
     "type": "Editorial",
-    "stock": false
+    "stock": false,
+    "shopUrl": ""
 },
 {
     "idProduct":4,
@@ -52,7 +67,8 @@
     "img": "kiblind1.jpg",
     "photos": ["kiblind1.jpg", "kiblind2.jpg"],
     "type": "Print",
-    "stock": false
+    "stock": false,
+    "shopUrl": ""
 },
 {
     "idProduct":7,
@@ -61,7 +77,8 @@
     "img": "inland_2.jpg",
     "photos": ["inland_3.png"],
     "type": "Merch",
-    "stock": false
+    "stock": false,
+    "shopUrl": ""
 }
 ,
 {
@@ -71,5 +88,6 @@
     "img": "um_sticker_1.png",
     "photos": ["um_sticker_1.png"],
     "type": "Merch",
-    "stock": false
+    "stock": false,
+    "shopUrl": ""
 }]

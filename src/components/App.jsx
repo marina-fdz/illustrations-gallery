@@ -34,11 +34,11 @@ function App() {
   return (
     <>
     <Header />
-    <Routes>
-      <Route path="/" element={<Gallery data={searchedProducts} searchValidation={searchValidation}/>}/>
-      <Route path="/contact" element={<Contact/>} />
-      <Route path="*" element={<NotFound/>} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Gallery data={searchedProducts} searchValidation={searchValidation}/>}/>
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="*" element={<NotFound/>} />
+      </Routes>
     <Footer/>
     </>
   );
