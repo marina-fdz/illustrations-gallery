@@ -32,14 +32,15 @@
         width: 100%;
         max-height: 100%;
         object-fit: cover;
-        &:first-of-type{
-            width: initial;
+        width: initial;
             object-fit: contain;
             max-width: 100%;
             border-left: 1px solid var(--color-main);
             border-right: 1px solid var(--color-main);
+        // &:first-of-type{
             
-        }
+            
+        // }
         
     }
    
