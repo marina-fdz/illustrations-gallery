@@ -8,6 +8,7 @@
     &:hover{
         background-color: var(--color-main);
         transition: background-color 2s;
+        overflow: hidden;
     }
     
     
@@ -38,16 +39,19 @@
                 padding-bottom: 50%;
                 opacity: 100%;
                 border-bottom: none;
-                animation-duration: 1.5s;
+                animation-duration: 2s;
                 animation-name: slidein;
+                
 
                 @keyframes slidein {
                     from {
-                      translate: 0 100px;
+                      translate: 0 240px;
+                      
                     }
                   
                     to {
                       translate: 0 0;
+                      
                     }
                 }
             }
