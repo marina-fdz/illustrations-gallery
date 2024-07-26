@@ -34,18 +34,18 @@
     "idProduct":6,
     "name": "Paperwallet",
     "desc": "Design for Paperwallet",
-    "img": "paperwallet_1.jpg",
-    "photos": ["paperwallet_1.jpg"],
+    "img": "paperwallet_2.png",
+    "photos": ["paperwallet_2.png", "paperwallet_3.png"],
     "type": "Merch",
     "stock": true,
     "shopUrl": "https://paperwallet.com/products/vulcano?_pos=1&_psq=vulcano&_ss=e&_v=1.0"
 },
 {
     "idProduct":9,
-    "name": "Paperwallet",
+    "name": "Paperwallet slim",
     "desc": "Design for slim Paperwallet",
-    "img": "paperwallet_1.jpg",
-    "photos": ["paperwallet_1.jpg"],
+    "img": "paperwallet_slim_1.png",
+    "photos": ["paperwallet_slim_1.png", "paperwallet_slim_2.png", "paperwallet_slim_3.png", "paperwallet_slim_4.png"],
     "type": "Merch",
     "stock": true,
     "shopUrl": "https://paperwallet.com/products/vulcano-rfid-slim-wallet?_pos=2&_psq=vulcano&_ss=e&_v=1.0"
